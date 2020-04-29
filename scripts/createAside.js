@@ -44,8 +44,10 @@ function createAsideElement(aside){
 
 
 let asideReady = createAsideElement(aside);
-let destination = document.getElementById('mein222');
 
-addElements([asideReady], destination);
+
+
+
+
 
 

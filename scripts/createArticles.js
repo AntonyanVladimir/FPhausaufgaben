@@ -4,22 +4,16 @@ function createArticleElement(article) {
     let content = createElement(article.content);
 
    let divSocialMedia = createDivSocial(article.content.divSocial);
-    
+   let datumInfo = createElement(article.content.info);
     content.append(createElement(article.content.image), 
-            createElement(article.content.description), divSocialMedia);
+            createElement(article.content.description), datumInfo, divSocialMedia );
 
-
+    
     element.append(header, content);
     return element;
 }
 
-if (articles && Array.isArray(articles)) {
-    articles.forEach(function(article) {
-        let element = createArticleElement(article);
-        let destination = document.getElementById('mein111');
-        addElements([element], destination);
-    });
-}
+
 
 function createDivSocial(divSocialConfig){
     let container = createElement(divSocialConfig);

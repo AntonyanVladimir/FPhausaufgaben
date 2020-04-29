@@ -20,11 +20,17 @@ let defaults = {
                 class: 'main-image'
             }
         },
+        info:{
+            tag:'p',
+            text:`Wurde erstellt am ${new Date()}`
+        },
         description: {
             tag: 'p',
+            
             attributes: {
                 class: 'description'
-            }
+            }, 
+
         },
         divSocial:{
             tag:'div',
@@ -89,12 +95,15 @@ let articles = [
                     width:"300px"
                 }
             },
+            info:defaults.content.info,
             description: {
                 tag: defaults.content.description.tag,
                 attributes: {
                     class: defaults.content.description.attributes.class
                 },
+                
                 text: 'Der Haushund ist ein Haustier und wird als Heim- und Nutztier gehalten. Seine wilde Stammform ist der Wolf, dem er als Unterart zugeordnet wird. Wann die Domestizierung stattfand, ist umstritten; wissenschaftliche Schätzungen variieren zwischen 15.000 und 100.000 Jahren'
+            
             },
             divSocial:defaults.content.divSocial
             
@@ -130,11 +139,13 @@ let articles = [
                     width:"300px"
                 }
             },
+            info:defaults.content.info,
             description: {
                 tag: defaults.content.description.tag,
                 attributes: {
                     class: defaults.content.description.attributes.class
                 },
+               
                 text: 'Ein Wecker ist eine Uhr, die zu einer zuvor einzustellenden Uhrzeit aus dem Schlaf wecken oder an einen bestimmten Termin erinnern soll. Dies geschieht meist durch ein akustisches Signal..'
             },
             divSocial:defaults.content.divSocial
@@ -170,11 +181,13 @@ let articles = [
                     width:"350px"
                 }
             },
+            info:defaults.content.info,
             description: {
                 tag: defaults.content.description.tag,
                 attributes: {
                     class: defaults.content.description.attributes.class
                 },
+                
                 text: 'Zu viel Süßes ist ungesund und schlecht für die Zähne. Ganz verbieten sollten Eltern ihren Kindern das Naschen jedoch nicht. Denn Kinder müssen den Umgang mit Zucker bzw. Süßigkeiten erlernen.'
             },
             divSocial:defaults.content.divSocial

@@ -10,3 +10,13 @@
 .tag-3 {font-size: large;}
 .tag-4 {font-size: larger;}
 .tag-5 {font-size: x-large;}
+
+.logo{width: 25px; height: 25px;}
+
+h3{
+	font-family: 'Baloo Tamma 2', cursive;
+	background-color: rgba(214, 226, 214, 0.932);
+}
+
+h1{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-style: italic;}
+
