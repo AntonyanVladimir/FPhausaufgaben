@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/blog.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<title>Web By Step - Beispielblog / HTML Elemente</title>
+	
+</head>
+<body>
+	<header class="container mb-5">
+		<a href="index.html" title="zur Startseite">
+			<img title="Logo" src="data/logo.svg" alt="Logo">	
+		<h1 id="myHeader">Web By Step - Beispielblog</h1></a>
+		<nav>Navigation</nav>
+	</header>
+	<div class="container" id="mein222">
+		<div class="row">
+			<!-- Breite 3/4 (9/12) -->
+			<main class="col-12 col-md-9" id="mein111">
+				<article>
+					<h2>HTML Elemente</h2>
+					<p>16. Januar 2018 21:14 Uhr von Thomas Richter</p>
+					<p><b>Eine kurze Einführung in HTML Elemente</b></p>
+					<img class="textimg" src="https://cdn.pixabay.com/photo/2020/04/09/19/19/cartoon-doctor-5022797_960_720.jpg" width="100px"/>
+					<p>Die HTML Elemente eines HTML Dokuments sind ineinander geschachtelt und bilden damit eine hierarchische Struktur, einen Baum. Ein Element besteht üblicherweise aus einem öffnenden und einem schließenden Tag. Zwischen den beiden Tags befindet sich der eigentliche Inhalt des Elements.<br> Weiterhin können im öffnenden Tag Attribute in Form von Schlüssel-Wert Paaren notiert werden.<br><br>
+		
+		Beispiel: <code>&lt;a href="https://w3.org"&gt;Das ist ein Link auf ein anderes HTML-Dokument (W3C)&lt;/a&gt;</code> wird dargestellt als:<br><br>
+		
+		<a href="https://w3.org">Das ist ein Link auf ein anderes HTML-Dokument (W3C)</a>
+					</p>
+					<div>Tags: <a class="badge badge-pill badge-primary" href="tagliste.html">HTML5</a> <span class="badge badge-pill badge-primary">Element</span></div><br>
+					<div>
+						<a title="Facebook" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fmyblog.local%2Fartikelurl" target="_blank">Teilen auf Facebook</a> |
+						<a title="Twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmyblog.local%2Fartikelurl&amp;text=HTML%20Dokumente&amp;via=myblog&amp;lang=de" target="_blank">Twittern</a> |
+						<a href="teilenEmail.html">Teilen via E-Mail</a>
+					</div>
+				</article>		
+			</main>
+
+			<!-- Breite 1/4 (3/12) -->
+			<!-- <aside class="col-12 col-md-3 mt-5">
+				<div class="row">
+					<label for="login" class="col-5 mt-2">Login</label>
+					<input class="col-6 mt-2" id="login" name="login" type="text" size="12" /><br>
+					<label for="password" class="col-5 mt-2">Passwort</label> 
+					<input class="col-6 mt-2" id="password" name="password" type="password" size="12" /><br>
+					<div class="col-12"><a class="btn btn-outline-primary btn-sm" href="#">Login</a></div>
+
+					<hr class="col-12">
+					
+					<div class="col-12 input-group input-group-sm pr-0">
+						<input type="text" class="form-control" aria-label="Suchen">
+						<div class="input-group-append">
+							<a class="btn btn-outline-primary" href="suchergebnis.html">Suchen</a>
+						</div>
+					</div>					
+			
+					<hr class="col-12">
+
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item"><a href="monatsliste.html">November 2017 (3)</a></li>
+						<li class="list-group-item"><a href="monatsliste.html">Dezember 2017 (1)</a></li>
+						<li class="list-group-item"><a href="monatsliste.html">März 2018 (2)</a></li>
+						<li class="list-group-item"><a href="monatsliste.html">April 2018 (1)</a></li>
+					</ul>
+					
+					<hr class="col-12">
+					<div class="col-12">
+						<span class="tag-1">Semantik</span>
+						<a class="tag-5" href="tagliste.html">HTML5</a>
+						<span class="tag-1">Element</span>
+						<span class="tag-3">Dokument</span>
+						<span class="tag-2">HTTP</span>
+					</div>
+				</div>
+			</aside> -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+	<footer class="container mb-3">
+	<hr>
+	<a href="impressum.html">Impressum</a> | Copyright | <a href="kontakt.html">Kontakt</a>
+	</footer>
+	<!-- <script src="scripts/jQuery.js"></script>
+	<script src="scripts/meinScript.js"></script>
+	<script src="scripts/blog.js"></script> -->
+	<script src="scripts/articles.js"></script>
+	<script src="scripts/utils.js"></script>
+	<script src="scripts/createArticles.js"></script>
+	<script src="scripts/asides.js"></script>
+	<script src="scripts/createAside.js"></script>
+
+</body>
+</html>
