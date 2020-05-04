@@ -15,7 +15,7 @@
  	<!-- Kopfteil -->
 	<header class="container mb-5">
 		<a href="index.html" title="zur Startseite">
-		<img title="Logo" src="images/logo.svg" alt="Logo">
+		<img title="Logo" src="data/jbl-logo.svg" alt="Logo" class="logo">
 		<h1>Web By Step - Beispielblog</h1></a>
 		<nav>Navigation</nav>
 	</header>
@@ -25,7 +25,7 @@
 			<main class="col-12 col-md-9">
 				<h1>Neuer Artikel</h1>
 				
-				<form action="index.html" method="post">
+				<form action="#" method="post" id="myForm">
 				
 					<div class="input-group mb-3">
 						<div class="input-group-prepend">
@@ -76,7 +76,7 @@
 						<input class="form-control" id="bild" name="bild" type="file">
 					</div>
 
-					<button type="submit" class="btn btn-primary">Veröffentlichen</button>
+					<button type="button" class="btn btn-primary" id="submitArticle">Veröffentlichen</button>
 				</form>
 			</main>
 
@@ -119,6 +119,7 @@
 	<footer class="container mb-3">
 	<hr>
 	<a href="impressum.html">Impressum</a> | Copyright | <a href="kontakt.html">Kontakt</a>
+	<script src="scripts/submitArticle.js"></script>
 	</footer>
 </body>
 </html>

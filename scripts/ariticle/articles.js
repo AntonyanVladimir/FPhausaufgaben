@@ -1,5 +1,5 @@
 let defaults = {
-    tag: 'aricle',
+    tag: 'article',
     attributes: {
         class: 'article-element'
     },
