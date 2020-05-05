@@ -1,5 +1,4 @@
 
- //var  formular = document.getElementById('myForm');
 
 document.getElementById('submitArticle').addEventListener('click', ()=>{
     
@@ -8,5 +7,9 @@ document.getElementById('submitArticle').addEventListener('click', ()=>{
     console.log(x.value);
  
    
-})
+});
 
+
+document.getElementById('ueberschrift').value = articles[0].header.text;
+document.getElementById('datum').value = articles[0].content.info.text;
+document.getElementById('text').value = articles[0].content.description.text;

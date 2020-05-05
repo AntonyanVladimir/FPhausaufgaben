@@ -22,7 +22,7 @@ let defaults = {
         },
         info:{
             tag:'p',
-            text:`Wurde erstellt am ${new Date()}`
+            text: new Date("2015-03-25").toISOString().split('T')[0]
         },
         description: {
             tag: 'p',
